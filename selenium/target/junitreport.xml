@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="58.324">
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password" time="12.129">
+<failure message="expected:&lt;[Hello Lipika, let's complete the test form:]&gt; but was:&lt;[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given login page is opened..................................................passed
+When user enters valid Lipika and valid 12645...............................passed
+And user clicks on login button.............................................passed
+Then Lipika is navigated to home page.......................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Hello Lipika, let's complete the test form:]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)
+	at ✽.Lipika is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password 2" time="7.414">
+<system-out><![CDATA[Given login page is opened..................................................passed
+When user enters valid Dipika and valid 12345...............................passed
+And user clicks on login button.............................................passed
+Then Dipika is navigated to home page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password 3" time="6.57">
+<failure message="expected:&lt;[Hello Chinu, let's complete the test form:]&gt; but was:&lt;[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given login page is opened..................................................passed
+When user enters valid Chinu and valid 19345................................passed
+And user clicks on login button.............................................passed
+Then Chinu is navigated to home page........................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Hello Chinu, let's complete the test form:]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)
+	at ✽.Chinu is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password 4" time="12.695">
+<system-out><![CDATA[Given login page is opened..................................................passed
+When user enters valid Bibhu and valid 12345................................passed
+And user clicks on login button.............................................passed
+Then Bibhu is navigated to home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password 5" time="9.949">
+<system-out><![CDATA[Given login page is opened..................................................passed
+When user enters valid Mama and valid 12345.................................passed
+And user clicks on login button.............................................passed
+Then Mama is navigated to home page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="Check login functionality with valid username and valid password 6" time="9.05">
+<system-out><![CDATA[Given login page is opened..................................................passed
+When user enters valid Baba and valid 12345.................................passed
+And user clicks on login button.............................................passed
+Then Baba is navigated to home page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

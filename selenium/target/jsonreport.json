@@ -1,0 +1,495 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-06T18:51:46.013Z",
+        "line": 14,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10971000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 758000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Lipika and valid 12645",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lipika",
+                  "offset": 18
+                },
+                {
+                  "val": "12645",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Hello Lipika, let\u0027s complete the test form:]\u003e but was:\u003c[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)\r\n\tat ✽.Lipika is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)\r\n",
+              "duration": 60000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Lipika is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lipika",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-06T18:51:58.182Z",
+        "line": 15,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5315000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 835000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Dipika and valid 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dipika",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Dipika is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dipika",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-06T18:52:05.605Z",
+        "line": 16,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5598000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 802000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Chinu and valid 19345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chinu",
+                  "offset": 18
+                },
+                {
+                  "val": "19345",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Hello Chinu, let\u0027s complete the test form:]\u003e but was:\u003c[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)\r\n\tat ✽.Chinu is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)\r\n",
+              "duration": 67000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Chinu is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chinu",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-06T18:52:12.191Z",
+        "line": 17,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9942000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 908000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Bibhu and valid 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bibhu",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1689000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Bibhu is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bibhu",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-06T18:52:24.893Z",
+        "line": 18,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7709000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 792000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Mama and valid 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mama",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1304000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Mama is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mama",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-06T18:52:34.850Z",
+        "line": 19,
+        "name": "Check login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;check-login-functionality-with-valid-username-and-valid-password;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5893000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {
+              "location": "stepDefinitions.Login.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid Baba and valid 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Baba",
+                  "offset": 18
+                },
+                {
+                  "val": "12345",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Baba is navigated to home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Baba",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1st"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

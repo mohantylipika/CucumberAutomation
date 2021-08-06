@@ -1,0 +1,4 @@
+stepDefinitions\Hooks.class
+stepDefinitions\TestRunner.class
+stepDefinitions\Login.class
+stepDefinitions\Signup.class

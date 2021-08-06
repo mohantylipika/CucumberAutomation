@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 61.311 sec <<< FAILURE!
+Check login functionality with valid username and valid password #1(To validate the login functionality)  Time elapsed: 12.473 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Hello Lipika, let's complete the test form:]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)
+	at ?.Lipika is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)
+
+Check login functionality with valid username and valid password #3(To validate the login functionality)  Time elapsed: 6.579 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Hello Chinu, let's complete the test form:]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)
+	at ?.Chinu is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)
+
