@@ -48,8 +48,8 @@
 						<configuration>
 							<projectName>Selenium</projectName>
 							<skip>false</skip>
-							<outputDirectory>reports/html-reports</outputDirectory>
-							<inputDirectory>target/cucumber-reports</inputDirectory>
+							<outputDirectory>${project.build.directory}/html-reports</outputDirectory>
+							<inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
 							<jsonFiles>
 								<param>**/*.json</param>
 							</jsonFiles>
