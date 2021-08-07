@@ -8,10 +8,9 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(    features = {"src/test/resources/features"}, 
                      glue = { "stepDefinitions" },
                      monochrome=true,
-                     plugin= {"pretty", "html:target/htmlreport.html", 
-                    		            "json:target/jsonreport.json",
-                    		            "junit:target/junitreport.xml"},
-		tags = "@1st"
+                     plugin= {"pretty", "json:target/jsonreport.json"}
+                    		           
+	
                      
 )
 

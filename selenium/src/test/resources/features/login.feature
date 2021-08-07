@@ -11,9 +11,9 @@ Feature: To validate the login functionality
 
     Examples: 
       | username | password |
-      | Lipika   |    12645 |
+      | Lipika   |    12345 |
       | Dipika   |    12345 |
-      | Chinu    |    19345 |
+      | Chinu    |    12345 |
       | Bibhu    |    12345 |
       | Mama     |    12345 |
       | Baba     |    12345 |
