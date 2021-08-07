@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-08-06T18:51:46.013Z",
+        "start_timestamp": "2021-08-07T03:59:47.550Z",
         "line": 14,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10971000000,
+              "duration": 8285000000,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 758000000,
+              "duration": 923000000,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 109000000,
+              "duration": 301000000,
               "status": "passed"
             },
             "line": 9,
@@ -60,7 +60,7 @@
           {
             "result": {
               "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Hello Lipika, let\u0027s complete the test form:]\u003e but was:\u003c[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)\r\n\tat ✽.Lipika is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)\r\n",
-              "duration": 60000000,
+              "duration": 176000000,
               "status": "failed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-06T18:51:58.182Z",
+        "start_timestamp": "2021-08-07T03:59:57.532Z",
         "line": 15,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -94,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5315000000,
+              "duration": 5466000000,
               "status": "passed"
             },
             "line": 7,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 835000000,
+              "duration": 998000000,
               "status": "passed"
             },
             "line": 8,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 141000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "line": 9,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 1113000000,
+              "duration": 3005000000,
               "status": "passed"
             },
             "line": 10,
@@ -164,7 +164,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-06T18:52:05.605Z",
+        "start_timestamp": "2021-08-07T04:00:07.172Z",
         "line": 16,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -174,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5598000000,
+              "duration": 5633000000,
               "status": "passed"
             },
             "line": 7,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 802000000,
+              "duration": 1014000000,
               "status": "passed"
             },
             "line": 8,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 193000000,
               "status": "passed"
             },
             "line": 9,
@@ -221,7 +221,7 @@
           {
             "result": {
               "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Hello Chinu, let\u0027s complete the test form:]\u003e but was:\u003c[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.Login.user_is_navigated_to_home_page(Login.java:51)\r\n\tat ✽.Chinu is navigated to home page(file:///D:/CucumberAutomation/selenium/src/test/resources/features/login.feature:10)\r\n",
-              "duration": 67000000,
+              "duration": 186000000,
               "status": "failed"
             },
             "line": 10,
@@ -245,7 +245,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-06T18:52:12.191Z",
+        "start_timestamp": "2021-08-07T04:00:14.220Z",
         "line": 17,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -255,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9942000000,
+              "duration": 6540000000,
               "status": "passed"
             },
             "line": 7,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 908000000,
+              "duration": 1072000000,
               "status": "passed"
             },
             "line": 8,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 146000000,
+              "duration": 177000000,
               "status": "passed"
             },
             "line": 9,
@@ -301,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 1689000000,
+              "duration": 6802000000,
               "status": "passed"
             },
             "line": 10,
@@ -325,7 +325,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-06T18:52:24.893Z",
+        "start_timestamp": "2021-08-07T04:00:28.826Z",
         "line": 18,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -335,7 +335,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7709000000,
+              "duration": 5883000000,
               "status": "passed"
             },
             "line": 7,
@@ -347,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 792000000,
+              "duration": 1007000000,
               "status": "passed"
             },
             "line": 8,
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 152000000,
               "status": "passed"
             },
             "line": 9,
@@ -381,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 1304000000,
+              "duration": 5376000000,
               "status": "passed"
             },
             "line": 10,
@@ -405,7 +405,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-06T18:52:34.850Z",
+        "start_timestamp": "2021-08-07T04:00:41.257Z",
         "line": 19,
         "name": "Check login functionality with valid username and valid password",
         "description": "",
@@ -415,7 +415,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5893000000,
+              "duration": 5432000000,
               "status": "passed"
             },
             "line": 7,
@@ -427,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 848000000,
+              "duration": 905000000,
               "status": "passed"
             },
             "line": 8,
@@ -449,7 +449,7 @@
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 144000000,
               "status": "passed"
             },
             "line": 9,
@@ -461,7 +461,7 @@
           },
           {
             "result": {
-              "duration": 2146000000,
+              "duration": 2919000000,
               "status": "passed"
             },
             "line": 10,
